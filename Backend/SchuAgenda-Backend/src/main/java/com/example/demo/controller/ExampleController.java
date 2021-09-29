@@ -15,7 +15,6 @@ public class ExampleController {
         this.exampleService = exampleService;
     }
 
-
     @PostMapping
     public void createBeruf(@Validated @RequestBody Example example){
         exampleService.save(example);
