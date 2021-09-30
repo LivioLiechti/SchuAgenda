@@ -13,3 +13,6 @@ public class SchuAgenda {
         SpringApplication.run(SchuAgenda.class, args);
     }
 }
+// Eintrag eintrag = new Eintrag();
+//        Tag tag = new Tag();
+//        System.out.println(eintrag.toString() + tag.toString());
