@@ -35,5 +35,5 @@ public class Eintrag {
     private String ort;
 
     @OneToMany(mappedBy = "eintrag")
-    private List<Eintrag_Tag> Eintrag;
+    private List<Eintrag_Tag> eintragTag;
 }

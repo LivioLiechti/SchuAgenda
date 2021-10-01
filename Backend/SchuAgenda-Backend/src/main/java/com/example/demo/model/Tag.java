@@ -28,6 +28,6 @@ public class Tag {
     private Date datum;
 
     @OneToMany(mappedBy = "tag")
-    private List<Eintrag_Tag> eintragid;
+    private List<Eintrag_Tag> eintragTag;
 
 }
